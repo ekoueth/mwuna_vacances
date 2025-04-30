@@ -1,0 +1,32 @@
+CREATE TABLE utilisateur(
+   id_jeune int auto_increment, 
+   nom  VARCHAR(30),
+   prenom VARCHAR(30),
+   date_de_nassaince DATE,
+   nom_du_tuteur VARCHAR(30),
+   prenom_du_tuteur VARCHAR(30),
+   numero_de_telephone_tuteur VARCHAR(10),
+   adresse_mail VARCHAR(25),
+   PRIMARY KEY(id_jeune)
+);
+
+CREATE TABLE sejour(
+   id_sejour VARCHAR(30),
+   date_de_debut  DATE,
+   date_de_fin DATE,
+   lieu_du_sejour VARCHAR(30),
+   activité_prevue VARCHAR(30),
+   PRIMARY KEY(id_sejour)
+);
+
+CREATE TABLE autoriser(
+   id_jeune int auto_increment, 
+   id_sejour VARCHAR(30),
+   autorisation boolean,
+   montant_a_paye  float,
+   montant_total float,
+   date_de_paiement DATE,
+   PRIMARY KEY(id_jeune, id_sejour),
+   FOREIGN KEY(id_jeune) REFERENCES utilisateur(id_jeune),
+   FOREIGN KEY(id_sejour) REFERENCES sejour(id_sejour)
+);
