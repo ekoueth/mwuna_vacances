@@ -1,12 +1,13 @@
-body {
+.body {
     font-family: 'Arial', sans-serif;
     background-color: #f9f3ea;
     color: #333;
     padding: 20px;
 }
-header { 
-    background-image: url(saly.jpg); 
+.header { 
+    background-image: linear-gradient(rgba(0,0,0,0,6),rgba(0,0,0,0,6))url(c:\Users\ttchi\Downloads\plage.jpeg);
     background-size: cover ;
+
     } 
 ul{
     list-styles:none;
@@ -14,39 +15,43 @@ ul{
     display:flex;
     margin-top: 20px;    
 } 
-ul li a{
-    text_decoartion:none ;
-    color:white;
-    padding: 10px 20 px ;
-    text-transform:upercase;
-    border: 1px solid white ; 
-    margin: 10px ;
-    font-weight:500; 
-    transition:0,09;   
-}
-ul li a:hover{
+.ul li a:hover{
     background: white  ; 
     color: black; 
 }
-top-page {
+.top-page {
     max-wich:114rem;
     margin:0 auto;  
 }
-titre {
-    position : absolute ;
+.titre {position : absolute ;
     top : 50px;
     left :50%;
-    transform: transition (-50%,-50%,)   
-}
+    transform: transition (-50%,-50%,) 
     
-h1 {
+}
+.titre h1 {
+    color : white ;
+    font-size:70px;
+}
+.h1 {
     text-align: center;
     color: #d35400;
     font-size: 2em;
     margin-bottom: 30px;
 }
+.bouton {
+    position : absolute ;
+    top : 60%;
+    left: 50%;
+    transform: translate(-50%,-50%,);   
+}
+.bouton a{
+    color : white ;
+    text-decoration: none;
+    border: ;
+}
 
-form {
+.form {
     max-width: 600px;
     margin: auto;
     background-color: #fff8f0;
