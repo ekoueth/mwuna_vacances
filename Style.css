@@ -4,7 +4,27 @@ body {
     color: #333;
     padding: 20px;
 }
-
+header { 
+    background-image: url(saly.jpg); 
+    background-size: cover ;
+    } 
+ul{
+    list-styles:none;
+    float: right;
+    display:flex;
+    margin-top: 20px;    
+} 
+ul li a{
+    text_decoartion:none ;
+    color:white;
+    padding: 10px 20 px ;
+    text-transform:upercase;
+    border: 1px solid white ; 
+    margin: 10px ;
+    font-weight:500; 
+    transition:0,09;   
+}
+ul li a:hover{
 h1 {
     text-align: center;
     color: #d35400;
