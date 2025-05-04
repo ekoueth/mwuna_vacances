@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inscription Moina Vacances</title>
-   <link href="https://github.com/ekoueth/mwuna_vacances/blob/main/Style.css" rel="stylesheet" type="text/css">
+   <link href="Style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <h1>Inscription Moina Vacances</h1>
+    <h1> Formulaire Inscription Mwuna Vacances</h1>
     <form method="POST" action="traitement.php" name="formulaire">
         <table>
             <tr>
