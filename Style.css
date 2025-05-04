@@ -25,6 +25,12 @@ ul li a{
     transition:0,09;   
 }
 ul li a:hover{
+    background: white  ; 
+    color: black; 
+}
+top-page {
+    
+}
 h1 {
     text-align: center;
     color: #d35400;
