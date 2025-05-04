@@ -29,6 +29,10 @@ ul li a:hover{
     color: black; 
 }
 top-page {
+    max-wich:114rem;
+    margin:0 auto;  
+}
+titre {
     
 }
 h1 {
@@ -87,6 +91,3 @@ label {
     display: block;
     margin-bottom: 8px;
 }
-
-Souhaites-tu une version mobile responsive ou une version plus visuelle avec des icônes ou images de destinations ?
-
