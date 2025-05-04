@@ -33,8 +33,12 @@ top-page {
     margin:0 auto;  
 }
 titre {
-    
+    position : absolute ;
+    top : 50px;
+    left :50%;
+    transform: transition (-50%,-50%,)   
 }
+    
 h1 {
     text-align: center;
     color: #d35400;
