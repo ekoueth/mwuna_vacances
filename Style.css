@@ -1,3 +1,66 @@
-*{
-  padding: 
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f3ea;
+    color: #333;
+    padding: 20px;
 }
+
+h1 {
+    text-align: center;
+    color: #d35400;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff8f0;
+    padding: 20px;
+    border: 2px solid #ffd6a5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+input[type="submit"] {
+    background-color: #ffa500;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #e67e22;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+Souhaites-tu une version mobile responsive ou une version plus visuelle avec des icônes ou images de destinations ?
+
