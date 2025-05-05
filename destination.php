@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
-    <link href="" type="text/css">
+    <link href="Style.css" type="text/css">
 <body>
     <header>
         <h3>Choisissez votre séjour et inscrivez-vous dès maintenant !</h3>
