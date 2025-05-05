@@ -1,102 +1,99 @@
-.body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f9f3ea;
-    color: #333;
-    padding: 20px;
+*{
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
 }
-.header { 
-    background-image: linear-gradient(rgba(0,0,0,0,6),rgba(0,0,0,0,6))url(c:\Users\ttchi\Downloads\plage.jpeg);
+header { 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image/africa.jpeg);
+    height: 100vh;
     background-size: cover ;
-
+    background-position: center;
     } 
+.logo a{
+    color: white;
+    background-color:rgba(241, 239, 240, 0.8); ;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center ;
+    position: absolute;
+    top: 40 px ;
+    left: 30 pix ;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight:900 ;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.6); /* lisibilité sur fond image */
+    background: transparent; /*fond transparent */
+}
+.logo a:hover {
+    color: rgb(224, 217, 221);
+    text-shadow: none;
+}
+.logo span{
+    color : rgb(74, 208, 212);
+    font-weight: bold;
+    font: size 2rem; 
+}
 ul{
-    list-styles:none;
+    list-style:none;
     float: right;
     display:flex;
     margin-top: 20px;    
-} 
-.ul li a:hover{
+}
+ul li a{ 
+    text-decoration: none;
+    color : rgba(255, 255, 255);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border:1px solid white ;
+    margin : 10px ;
+}
+ul li a:hover{
     background: white  ; 
     color: black; 
 }
-.top-page {
-    max-wich:114rem;
-    margin:0 auto;  
+ul li.active a{
+    background-color: aliceblue;
+    color: black;
 }
-.titre {position : absolute ;
-    top : 50px;
-    left :50%;
-    transform: transition (-50%,-50%,) 
-    
+.principale{
+    max-width: 114rem ;
+    margin: 0;
+
 }
-.titre h1 {
-    color : white ;
-    font-size:70px;
-}
-.h1 {
+.titre {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     text-align: center;
-    color: #d35400;
-    font-size: 2em;
-    margin-bottom: 30px;
+    width:100%;
+
+}
+.titre h1{
+   white-space: nowrap;/* empêche le texte de passer à la ligne */
+    color:black;
+    font-size: 50px;
 }
 .bouton {
-    position : absolute ;
-    top : 60%;
-    left: 50%;
-    transform: translate(-50%,-50%,);   
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform: translate(-50%,-50%);
 }
 .bouton a{
-    color : white ;
+    color: white ;
     text-decoration: none;
-    border: ;
+    border: 1px solid auto;
+    padding: 10px 20px ;
 }
-
-.form {
-    max-width: 600px;
-    margin: auto;
-    background-color: #fff8f0;
-    padding: 20px;
-    border: 2px solid #ffd6a5;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+.btn{
+    transition: 00.7s ease;
 }
-
-table {
-    width: 100%;
-}
-
-td {
-    padding: 10px;
-    vertical-align: top;
-}
-
-input[type="text"],
-input[type="date"] {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-input[type="radio"] {
-    margin-right: 8px;
-}
-
-input[type="submit"] {
-    background-color: #ffa500;
-    color: white;
-    border: none;
-    padding: 12px 20px;
-    border-radius: 5px;
-    font-size: 1em;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: #e67e22;
-}
-
-label {
-    display: block;
-    margin-bottom: 8px;
+.btn:hover{
+    background-color: white  ;
+    color: palevioletred;
 }
